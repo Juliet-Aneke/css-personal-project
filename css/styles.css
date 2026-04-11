@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER SECTION*/
+
+ul li{
+    list-style-type: none;
+    margin-right: 80px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.logo {
+    background-color: black;
+    color:purple;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 0.5rem;
+}
+    
+header nav > ul
+{
+    display: none;
+}
+
+.mobile button{
+  outline: 0;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+
+ ul.mobile-dropdown{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 60%;
+    max-width: 12rem;
+    height: calc(100vh- 4.5rem);
+    background-color: #f6f6f6;
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    display: none;
+
+}
+
+/*BODY SECTION*/
+
+main {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 4.5rem); 
+    background-image: url(../images/hero-1.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    gap: 1.5rem; 
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 10, 70, 0.5);
+}
+
+.hero h1{
+    color:white;
+    z-index: 3;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hero p {
+    z-index: 3;
+    color:white;
+    font-weight: 900;
+    text-align: center;
+    width: 90%;
+    max-width: 35rem;
+}
+
+.hero a{
+    background-color:red;
+    color:white;
+    padding: 0.7rem 2rem;
+    transition: 0.5s ease-in-out;
+    margin: 5rem;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    width: fit-content;
+}
+
+.hero a:hover{
+    background-color:blue;
+    color:black;
+}
+
+/*---------MEDIA QUERY-------------*/
+
+/* Styles for screens 768px and wider (tablets and small desktops) */
+
+
+ @media(min-width:768px)
+ {
+    .hero{
+    min-height: 60vh;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+    }
+ }
+
+
+@media(min-width:1000px)
+
+{
+    .mobile{
+        display:none;
+    }
+
+    header nav > ul{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    header  a {
+    color: purple;
+    font-weight: 600;
+    font-size: 1.5rem;
+   } 
+
+    header a:hover{
+    color: blue;
+   }
+
+   .hero h1{
+    font-size: 5rem;
+   }
+
+
+   .hero a{
+    background-color:red;
+    color:white;
+
+    font-size: 1.5rem;
+    width: fit-content;
+}
+}
+
+@media (min-width: 1500px) {
+    
+    /* Center and constrain navigation bar width */
+    header nav {
+        width: 80%; /* Navigation takes 80% of header width */
+        max-width: 80rem; /* Maximum width of 1280px */
+        margin: 0 auto; /* Center navigation (0 top/bottom, auto left/right) */
+    }
+}
+  
