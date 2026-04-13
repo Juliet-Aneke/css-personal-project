@@ -158,7 +158,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
     gap: 1rem;
-    background-color: pink;
+    background-color: black;
 }
 
 .article > p{
@@ -166,6 +166,7 @@ main {
     flex-direction: column;
     padding: 2rem;
     line-height: 2;
+    color: beige;
 }
     
 .content img{
@@ -173,15 +174,34 @@ main {
     height: 100%;
 }
 
-/* ---- SKILLS------*/
+/*---------Skills section-------------*/
+
+.skills-intro h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:purple;
+    color: white;
+    padding: 1rem;
+}
+
+.skills-intro ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:purple;
+    color: white;
+    padding: 1rem;
+}
+
 .container{
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    background-color: purple;
-    
-   
+    background-color: black;
 }
 
 .container div{
@@ -206,9 +226,16 @@ main {
     color: blue;
 
 }
+/*---------Skills section-------------*/
 
-
-
+.skills-intro h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:purple;
+    color: white;
+    padding: 1rem;
+}
 
 
 
