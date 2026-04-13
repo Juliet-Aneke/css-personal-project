@@ -207,7 +207,7 @@ main {
 .container div{
     width: 190px;
     height: 15rem;
-    margin: 5rem;
+    margin: 2rem auto;
     background-color: #07182E;
     display: flex;
     flex-direction: column;
