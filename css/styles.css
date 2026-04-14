@@ -158,7 +158,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
     gap: 1rem;
-    background-color: black;
+    background-color: rgb(46, 42, 42);
 }
 
 .article > p{
@@ -201,7 +201,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    background-color: black;
+    background-color: rgb(68, 61, 61);
 }
 
 .container div{
