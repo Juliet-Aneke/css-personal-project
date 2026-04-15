@@ -89,7 +89,7 @@ main {
 #Home {
     width: 100%;
     height: calc(100vh - 4.5rem); 
-    background-image: url(../images/hero-1.jpg); 
+    background-image: url(../images/hero.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
@@ -226,6 +226,7 @@ main {
 }
 
 /*---------PROJECT section-------------*/
+
 #Projects h2{
     display: flex;
     align-items: center;
@@ -239,8 +240,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
-    gap: 1rem;
-    background-color: rgb(68, 61, 61);
+    background-color: white(68, 61, 61);
 }
 
 .projects article{
@@ -249,13 +249,14 @@ main {
     align-items: center;
     justify-content: center;
     line-height: 2;
-    color: beige;
+    color: rgb(41, 11, 173);
 }
     
 .projects img{
     max-width: 100%;
     height: 100%;
     transition: all 0.9s ease-in-out;
+    margin: 2rem;
 }
 
 .projects img:hover{
@@ -263,8 +264,8 @@ main {
     filter: grayscale(0.5);
 }
 .projects a{
-    background-color: red;
-    color: wheat;
+    background-color: blue;
+    color: white;
     padding: 0.5rem;
     display: flex;
     justify-content: center;
@@ -275,8 +276,8 @@ main {
 }
 
 .projects a:hover{
-    background-color: blue;
-    color: white;
+    background-color: red;
+    color:black;
 }
  
 
@@ -304,7 +305,7 @@ main {
     .content img {
     width: 100%;
     height: auto;
-  }
+    }   
 
    .container{
    display: grid;
@@ -315,13 +316,11 @@ main {
     .projects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    }
+    grid-template-rows: auto;}
 
     .projects img {
     width: 100%;
-    height: auto;
-  }
+    height: auto;}
 }
 
 
