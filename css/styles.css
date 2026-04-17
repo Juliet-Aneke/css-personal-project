@@ -93,6 +93,7 @@ main {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
+    position: relative;
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -185,8 +186,10 @@ main {
     background-color:#C9A96E;
     color: #0f0608;
     font-weight: 800;
+    font-size: 1.5rem;
     padding: 1rem;
 }
+
 
 .container{
     display: grid;
@@ -304,7 +307,9 @@ main {
 
 #Contact P{
     line-height: 2;
-    color:#0f0608
+    color:#0f0608;
+    font-size: 1rem;
+    margin: 1rem;
 }
 
 .contact-wrapper {
@@ -461,8 +466,11 @@ footer {
         grid-template-rows: auto;
     }
 
+       .logo {
+    display: flex;
+    flex-direction: row;
+ }
 }
-
 
 @media(min-width:1024px)
 {
