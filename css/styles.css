@@ -211,41 +211,41 @@ body{
     width: 190px;
     height: 15rem;
     margin: 2rem auto;
-    background-color: #07182E;
+    background-color:#0f0608;
+    color:#C9A96E;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     border-radius: 20px;
-    overflow: hidden;
-    color: white;
     font-size: 2rem;
     transition: all 0.2s ease-in-out;
 }
 
 .container div:hover{
-    background-color:#0f0608;
-    color:#C9A96E;
+    background-color:#07182E;
+    color:#f5efe6;
 
 }
 
 /*---------PROJECT section-------------*/
 
-#Projects h2{
+#Projects h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:purple;
-    color: white;
+    background-color:#C9A96E;
+    color:#0f0608;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .projects{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
-    background-color: white(68, 61, 61);
+    background-color:#f5efe6;
 }
 
 .projects article{
@@ -286,11 +286,21 @@ body{
 }
 /*---------CONTACT section-------------*/
 
+#Contact h1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C9A96E ;
+    color:#0f0608;
+    padding: 1rem;
+}
+
 #Contact h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#0f0608
+
 }
 
 #Contact P{
@@ -312,7 +322,6 @@ body{
     gap:1rem;
     width: 90%;
     max-width: 45rem;
-    margin: 0 auto;
     background-color:#C9A96E;
     padding: 2rem 1rem;
     border-radius: 15px;
@@ -388,6 +397,7 @@ gap: 0.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:#07182E;
 }
 
  
