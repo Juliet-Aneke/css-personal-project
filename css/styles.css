@@ -436,10 +436,14 @@ footer {
     .content {
     display: flex;
     flex-direction: row;
-    gap: 8rem;
+    justify-content: center;
     align-items: center;
-    height: auto;
     }
+
+    .content img {
+    width: 100%;
+    height: auto;
+    }   
 
    .container{
    display: grid;
