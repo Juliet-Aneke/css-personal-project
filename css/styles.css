@@ -472,6 +472,12 @@ footer {
         display: flex;
         flex-direction: row;
     }
+
+    .article > p{
+    font-size: 20px;
+    padding: 2rem;
+    line-height: 2;
+}
 }
 
 @media(min-width:1024px)
