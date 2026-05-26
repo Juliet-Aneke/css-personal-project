@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* DEFAULT IMG STYLE */
+img {
+  display: block;
+}
+
+html{
+  scroll-behavior: smooth;
+}
 
 /*HEADER SECTION*/
 
@@ -143,6 +151,7 @@ main {
     background-color:#C9A96E;
     color:#0f0608;
     padding: 1rem;
+    
 }
 
 .content{
@@ -153,6 +162,8 @@ main {
     background-color: #f5efe6;
     
 }
+
+
 
 .article > p{
     display: flex;
@@ -166,6 +177,7 @@ main {
     max-width: 100%;
     height: 100%;
     border-radius: 10rem;
+    
 }
 
 /*---------Skills section-------------*/
@@ -435,15 +447,18 @@ footer {
     }
 
     .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
     align-items: center;
     }
 
     .content img {
     width: 100%;
-    height: auto;
+    border: radius 15px; 
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    
     }   
 
    .container{
