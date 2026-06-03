@@ -155,12 +155,7 @@ main {
 }
 
 .content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, auto);
-    gap: 1rem;
     background-color: #f5efe6;
-    
 }
 
 
@@ -170,14 +165,14 @@ main {
     flex-direction: column;
     padding: 2rem;
     color: #0f0608;
-    line-height: 1.7;
+    line-height:0.5;
 }
     
 .content img{
     max-width: 100%;
     height: 100%;
-    border-radius: 10rem;
-    
+    border-radius: 5rem;
+
 }
 
 /*---------Skills section-------------*/
@@ -455,7 +450,6 @@ footer {
 
     .content img {
     width: 100%;
-    border: radius 15px; 
     object-fit: cover;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     
