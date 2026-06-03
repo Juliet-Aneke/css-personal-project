@@ -165,7 +165,7 @@ main {
     flex-direction: column;
     padding: 2rem;
     color: #0f0608;
-    line-height:0.5;
+    line-height:2;
 }
     
 .content img{
